@@ -12,8 +12,8 @@
         <h1 className='flex items-center text-4xl justify-center mt-[30px]'><img className='w-[42px] h-[42px]' src={hamstertanga} alt="" />{count}</h1>
         <center>
             <button onClick={() => setcount(count + 1)}>
-        <img className='mt-[60px] active:scale-90 transition-[300ms]'  src={hamstergaday} alt="" />
-            </button>
+        <img className='mt-[40px] active:scale-90 transition-[300ms]'  src={hamstergaday} alt="" />
+            </button>   
         </center>
         </>
     )

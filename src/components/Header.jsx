@@ -7,7 +7,7 @@ const Header = () => {
         <header>
             <nav>
                 <h1 className='text-center mt-10 text-2xl font-bold'>Hamster Kombat</h1>
-                <div className='flex justify-around mt-[50px]'>
+                <div className='flex justify-around mt-[30px]'>
                     <div className='w-[117px]  rounded-xl py-2 bg-[#32363CB2] flex flex-col justify-center items-center gap-[5px]'>
                     <p className='text-[#F79841]'>Earn per tap</p>
                         <div className='flex gap-1'>
