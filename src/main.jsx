@@ -11,6 +11,10 @@ import Mine from '../src/pages/Mine.jsx'
 import Friends from '../src/pages/Friend.jsx'
 import Earn from '../src/pages/Earn.jsx'
 import Airdrop from '../src/pages/Airdrop.jsx'
+import { registerSW } from 'virtual:pwa-register'
+
+registerSW()
+
 
 const router = createBrowserRouter([
   {
