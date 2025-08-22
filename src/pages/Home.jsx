@@ -13,10 +13,10 @@
           <h1 className='flex items-center text-4xl justify-center mt-[30px]'><img className='w-[42px] h-[42px]' src={hamstertanga} alt="" />{count}</h1>
         <center>
             <button onClick={() => setcount(count + 1)}>
-        <img className='mt-[30px] active:scale-90 transition-[300ms]'  src={hamstergaday} alt="" />
+        <img className='mt-[60px] active:scale-90 transition-[300ms]'  src={hamstergaday} alt="" />
             </button>   
         </center>
-        <div className='flex justify-around'>
+        <div className='flex justify-around mt-5'>
             <div className='flex gap-2 items-center'>
                 <img src={quvvat} alt="" />
                 <p>6500 / 6500</p>
