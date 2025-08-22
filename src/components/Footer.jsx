@@ -8,7 +8,7 @@ import hamsterdrop from '../assets/airdrop.png'
 
 const Footer = () => {
   return (
-    <div className='flex gap-1 bg-[#32363CB2] items-center justify-around fixed  bottom-0 w-full py-2'>
+    <div className='flex gap-1 bg-[#32363CB2] items-center justify-around fixed  bottom-0 w-full py-5'>
        <Link className='w-[80px] h-[60px]  focus:bg-[#21242980] rounded-xl focus:text-[#F4B92E] flex focus:transition-[300ms] transition-[300ms]  flex-col gap-1.5 justify-center items-center' to={"/"}> <SiExpertsexchange className='hover:text-yellow-400' /> <span className='text-white'>Exchange</span></Link>
        <Link className='w-[80px] h-[60px]  focus:bg-[#21242980] rounded-xl focus:text-[#F4B92E] flex focus:transition-[300ms] transition-[300ms]  flex-col gap-1.5 justify-center items-center' to={"/mine"} ><ImHammer /> <span className='text-white'>Mine</span></Link>
        <Link className='w-[80px] h-[60px]  focus:bg-[#21242980] rounded-xl focus:text-[#F4B92E] flex focus:transition-[300ms] transition-[300ms]  flex-col gap-1.5 justify-center items-center' to={"/friends"}><FaUsers />  <span className='text-white'>Friends</span></Link>
